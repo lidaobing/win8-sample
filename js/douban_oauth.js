@@ -136,6 +136,7 @@ $(function () {
   $("#request_url").text(url);
   $("#step2").show();
 
+  /*
   WinJS.xhr({ url: url }).then(
     function (result) {
       $("#alert").text("success");
@@ -144,19 +145,16 @@ $(function () {
     },
     function (result) {
       $("#alert").text("fail");
-      /* $("#alert").text(JSON.stringify(result)); */
     }
     );
+*/
 
-
-  /*
   $.ajax(url)
     .done(function(data) {
-      $("request_token").text(data);
+      $("#request_token").text(data);
       $("#step3").show();
     })
     .fail(function(jqXHR, textStatus) {
       $("#alert").text(textStatus);
     });
-    */
 });
