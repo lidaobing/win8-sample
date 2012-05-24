@@ -51,14 +51,18 @@
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="html\douban_oauth.html" />
     <Content Include="html\jandan.html" />
     <Content Include="html\osay.html" />
     <Content Include="html\file_manager.html" />
     <Content Include="js\bootstrap.js" />
+    <Content Include="js\douban_oauth.js" />
     <Content Include="js\filemanager.js" />
     <Content Include="js\jquery.js" />
     <Content Include="js\jquery-1.7.2.min.js" />
     <Content Include="js\jandan.js" />
+    <Content Include="js\oauth.js" />
+    <Content Include="js\sha1.js" />
     <None Include="Application1_TemporaryKey.pfx" />
     <Content Include="css\bootstrap-responsive.css" />
     <Content Include="css\bootstrap-responsive.min.css" />
