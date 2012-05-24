@@ -51,6 +51,7 @@
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="html\jandan.html" />
     <Content Include="html\osay.html" />
     <Content Include="html\file_manager.html" />
     <Content Include="js\bootstrap.js" />
