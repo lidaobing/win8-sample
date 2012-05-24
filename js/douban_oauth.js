@@ -139,7 +139,7 @@ $(function () {
   WinJS.xhr({ url: url }).then(
     function (result) {
       $("#alert").text("success");
-      $("request_token").text(JSON.stringify(result));
+      $("#request_token").text(result.responseText);
       $("#step3").show();
     },
     function (result) {
