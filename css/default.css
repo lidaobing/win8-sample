@@ -1,0 +1,142 @@
+﻿body {
+  background-color: #376ea5;
+  padding: 0;
+  margin: 0;
+}
+
+#side-padding {
+  height: 400px;
+}
+
+@media (max-width: 767px) {
+  #side-padding {
+    height: 0;
+  }
+}
+
+#main-wrap {
+  background-color: white;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+#main {
+  padding: 5px;
+}
+
+#banner {
+	height: 60px;
+	border: 1px;
+	border-style: solid;
+        text-align: right;
+        background: lightgray;
+        margin-bottom: 15px;
+        margin-top: 0px;
+}
+
+
+#side {
+  padding: 5px;
+  border-right: solid 1px;
+  background-color: #E9F4E9;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+
+#footer {
+  background-color: lightgray;
+  font-size: 12px;
+  padding: 5px;
+  text-align: center;
+  margin-top: 15px;
+  padding: 10px 0;
+  -moz-border-radius:5px 5px 0px 0px;
+  border-radius:5px 5px 0px 0px;
+}
+
+.inline {
+	display: inline;
+}
+
+.center {
+	text-align: center;
+}
+
+.round {
+  -moz-border-radius:5px 5px 5px 5px;
+  border-radius:5px 5px 5px 5px;
+}
+
+.round-left {
+  -moz-border-radius:5px 0px 0px 5px;
+  border-radius:5px 0px 0px 5px;
+}
+
+.round-bottom {
+  -moz-border-radius:0px 0px 5px 5px;
+  border-radius:0px 0px 5px 5px;
+}
+.round-top {
+  -moz-border-radius:5px 5px 0px 0px;
+  border-radius:5px 5px 0px 0px;
+}
+
+.sidebar-account {
+  padding: 5px;
+  border-bottom: thin solid;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+#warn {
+  margin: 10px 100px 10px 100px;
+  padding: 10px;
+  background-color: #FF7777;
+  text-align: center;
+  -moz-border-radius:5px 5px 5px 5px;
+  border-radius:5px 5px 5px 5px;
+  cursor: pointer;
+  font-size: 140%;
+}
+#notice-parent {
+  margin: 10px 100px 10px 100px;
+  padding: 10px;
+  background-color: white;
+  color: green;
+  text-align: center;
+  -moz-border-radius:5px 5px 5px 5px;
+  border-radius:5px 5px 5px 5px;
+  font-size: 140%;
+}
+
+#notice-close {
+  cursor: pointer;
+}
+
+.post {
+	margin-left: 2em;
+	margin-right: 2em;
+	padding: 1em;
+	border-bottom: thin solid;
+}
+
+.post-forward {
+	font-size: 0.8em;
+	text-align: right;
+}
+
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}
