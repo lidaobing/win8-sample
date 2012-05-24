@@ -56,7 +56,9 @@
     <Content Include="html\file_manager.html" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\filemanager.js" />
+    <Content Include="js\jquery.js" />
     <Content Include="js\jquery-1.7.2.min.js" />
+    <Content Include="js\jandan.js" />
     <None Include="Application1_TemporaryKey.pfx" />
     <Content Include="css\bootstrap-responsive.css" />
     <Content Include="css\bootstrap-responsive.min.css" />
